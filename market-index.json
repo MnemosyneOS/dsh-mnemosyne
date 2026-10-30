@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Mnemosyne DSH Plugins",
+    "zh": "Mnemosyne DSH 插件"
+  },
+  "description": {
+    "en": "DeepSeek Harness plugins published by MnemosyneOS.",
+    "zh": "MnemosyneOS 发布的 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "model-inference": {
+        "title": {
+          "en": "Memory",
+          "zh": "记忆系统"
+        }
+      }
+    },
+    "labels": {
+      "verified": {
+        "title": {
+          "en": "Verified",
+          "zh": "已验证"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "Stars",
+          "zh": "收藏"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-mnemosyne",
+      "title": {
+        "en": "Mnemosyne OS Memory (one-click global enable)",
+        "zh": "Mnemosyne OS 记忆系统（一键全局启用）"
+      },
+      "description": {
+        "en": "One-click device-flow authorization for Mnemosyne OS, registers the MCP server in the DSH profile, and injects the 52-tool memory rules into the global AGENTS.md so all agents and all chat sessions apply the memory system automatically.",
+        "zh": "一键设备授权接入 Mnemosyne OS，把 MCP 服务注册进 DSH profile，并把 52 工具记忆规则注入全局 AGENTS.md，使所有 Agent 与所有会话框自动应用记忆系统。"
+      },
+      "author": "MnemosyneOS",
+      "homepage": "https://github.com/MnemosyneOS/dsh-mnemosyne",
+      "repository": {
+        "url": "https://github.com/MnemosyneOS/dsh-mnemosyne"
+      },
+      "metadata": {
+        "category": "model-inference",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "mnemosyne",
+          "memory",
+          "long-term-memory",
+          "mcp"
+        ],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793400000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MnemosyneOS/dsh-mnemosyne",
+            "commit": "REPLACE_WITH_PUBLISH_COMMIT"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

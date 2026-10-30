@@ -1,0 +1,28 @@
+{
+  "name": "dsh-mnemosyne",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 插件：一键授权 Mnemosyne OS 记忆库并把 52 工具记忆系统注入全局规则（所有 Agent / 所有会话框生效）。",
+  "type": "module",
+  "bin": {
+    "dsh-mnemosyne-login": "bin/dsh-mnemosyne-login.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MnemosyneOS/dsh-mnemosyne.git"
+  },
+  "homepage": "https://ai-memory.net",
+  "license": "MIT",
+  "author": "MnemosyneOS",
+  "keywords": ["deepseek-harness", "mnemosyne", "memory", "mcp"]
+}

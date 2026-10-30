@@ -1,0 +1,7 @@
+# dsh-mnemosyne · bundle 补丁层
+#
+# 这里刻意是空的顶层数组。真正的 MCP 条目由登录器在拿到密钥后写入用户 profile：
+#   ~/.dsh/profiles/<profile>/cordis.patch.yml
+# 预置空条目会导致 DSH 启动多一条连不上的超时连接。保留本文件让 `dsh plugin add`
+# 认这个包是 bundle（识别依据就是包里存在 cordis.patch.yml）。
+[]

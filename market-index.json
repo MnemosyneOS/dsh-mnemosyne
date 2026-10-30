@@ -69,11 +69,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793400000,
+          "publishTimestamp": 1793361884,
           "source": {
             "type": "git",
             "url": "https://github.com/MnemosyneOS/dsh-mnemosyne",
-            "commit": "REPLACE_WITH_PUBLISH_COMMIT"
+            "commit": "630502d9cbaf856adf1047af2c2488ff05f3e3dd"
           },
           "engines": {
             "dsh": ">=0.2.0"

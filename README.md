@@ -1,5 +1,7 @@
 # dsh-mnemosyne
 
+[English](README.en.md) · **简体中文**
+
 DeepSeek Harness 插件：一键把 **Mnemosyne OS 记忆系统（v8.1.0, 52 工具）** 接入本机，并让**所有 Agent、所有会话框全局生效**。
 
 ## 它做了什么
